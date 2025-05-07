@@ -1,9 +1,9 @@
 { config, lib, pkgs, ... }:
 let
-  sources = import ./npins
+  sources = import ./npins;
 in {
-  import = [
-    ./dellLaptop.nix
+  imports = [
+    ./configuration.nix
     (sources.nixos-hardware + "/dell/latitude/7390")
   ];
   hardware.bluetooth.enable = true; # enables support for Bluetooth
