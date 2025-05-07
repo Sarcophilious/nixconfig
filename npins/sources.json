@@ -1,0 +1,29 @@
+{
+  "pins": {
+    "nixos-hardware": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "NixOS",
+        "repo": "nixos-hardware"
+      },
+      "branch": "master",
+      "revision": "72081c9fbbef63765ae82bff9727ea79cc86bd5b",
+      "url": "https://github.com/NixOS/nixos-hardware/archive/72081c9fbbef63765ae82bff9727ea79cc86bd5b.tar.gz",
+      "hash": "16ipk0wlj0a5p7vlhp8qcmia1npjswsjg9q9vc2ycdshz2h7crcs"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixos-24.11",
+      "url": "https://releases.nixos.org/nixos/24.11/nixos-24.11.717608.bf3287dac860/nixexprs.tar.xz",
+      "hash": "1qf7ccpbad2p58q894g4zij3nvsqw503615apjb3iz06yribbrwb"
+    },
+    "uns-pkgs": {
+      "type": "Channel",
+      "name": "nixos-unstable",
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-25.05pre793418.7a2622e2c0db/nixexprs.tar.xz",
+      "hash": "1159gzccj27zzy552pqhm0j8ans8dp9clr0na02aq8v8i4s465bw"
+    }
+  },
+  "version": 3
+}

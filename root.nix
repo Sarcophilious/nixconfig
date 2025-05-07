@@ -1,7 +1,7 @@
 { lib, pkgs, config, ... }: {
   imports = [
     # Import your main configuration
-    ./configuration.nix
+    ./dellLaptop.nix
   ];
 
   environment.systemPackages = with pkgs; [
