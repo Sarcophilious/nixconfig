@@ -1,3 +1,9 @@
+to bootstrap run
+```
+nix-shell -p git npins --command "git clone -b Hades https://github.com/Sarcophilious/nixconfig.git ./.nixfiles && cd .nixfiles"
+```
+in home
+
 # Sane stable stateless NixOS setup
 
 This is a fairly straightforward setup for making a NixOS system configuration stateless without relying on experimental Nix features.
